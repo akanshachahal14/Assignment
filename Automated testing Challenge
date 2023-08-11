@@ -26,3 +26,20 @@ if __name__ == "__main__":
     password = "password"
 
     login(username, password)
+
+
+
+Test Cases:
+
+Functional testing: This type of testing ensures that the software meets its functional requirements. For example, you could test the login process by entering a valid username and password and verifying that the user is able to log in successfully.
+Performance testing: This type of testing ensures that the software can handle a specific workload. For example, you could test the login process by simulating a large number of users logging in at the same time.
+Security testing: This type of testing ensures that the software is secure from attack. For example, you could test the login process by trying to log in with a stolen password.
+Usability testing: This type of testing ensures that the software is easy to use. For example, you could test the login process by asking users to log in and asking them for feedback on the process.
+
+Challenges:
+
+Unstable test environment: If the test environment is unstable, it can be difficult to reproduce bugs and test the software effectively.
+Time constraints: Testing can be time-consuming, especially for large and complex software systems. It can be difficult to find the time to test everything thoroughly.
+Changing requirements: Requirements can change throughout the development process, which can make it difficult to keep test cases up-to-date.
+Lack of resources: Inadequate resources, such as testers, time, and money, can make it difficult to test software effectively.
+Lack of communication: Communication gaps between developers and testers can lead to misunderstandings and missed bugs.
