@@ -1,4 +1,4 @@
-
+Automating user login process for SDLMS appication:
 Here are the steps on how to automate the user login process for an SDLMS application:
 Identify the elements of the login page that need to be automated. This includes the username field, password field, and login button.
 Use a scripting language, such as Python or JavaScript, to create a script that will automate the login process. The script will need to enter the username and password into the appropriate fields and click the login button.
@@ -8,7 +8,6 @@ Once the script is working correctly, you can deploy it to a production environm
 Here is an example of a Python script that can be used to automate the login process for an SDLMS application:
 
 import requests
-
 def login(username, password):
     url = "https://www.example.com/sdlms/login"
     data = {
